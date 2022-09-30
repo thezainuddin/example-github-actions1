@@ -1,0 +1,12 @@
+name: hello-world
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World!"
+      - name: Tell me the directory i am in
+        run: pwd
+      - name: who am i
+        run: whoami
