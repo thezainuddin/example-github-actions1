@@ -10,3 +10,5 @@ jobs:
         run: pwd
       - name: who am i
         run: whoami
+      - name: print out the data inside simple.txt
+        run : cat simple.txt
